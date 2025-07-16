@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sailboat for Sale</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papnm1z8l7L+QqfN2WyIeyRkT9y2Lq6kAr3L+lB1qXjwFVWbdK1U7mX1Z3jcVUZ8mRZpXzL71V+5FBOu7GkWlw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Hero -->
+  <section class="bg-blue-900 text-white py-12 text-center">
+    <h1 class="text-4xl font-bold mb-2">Sailboat for Sale</h1>
+    <p class="text-xl">A unique opportunity to own a sailboat in excellent condition</p>
+  </section>
+
+  <!-- Gallery -->
+  <section class="py-10 px-6 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">Boat Photos</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="img/sailboat1.jpg" class="rounded-lg shadow" alt="Sailboat docked">
+      <img src="img/interior1.jpg" class="rounded-lg shadow" alt="Salon and galley">
+      <img src="img/interior2.jpg" class="rounded-lg shadow" alt="Salon overview">
+      <img src="img/cabin1.jpg" class="rounded-lg shadow" alt="Cabin with luggage">
+      <img src="img/hallway.jpg" class="rounded-lg shadow" alt="Cabin hallway">
+      <img src="img/kitchen.jpg" class="rounded-lg shadow" alt="Kitchen area">
+      <img src="img/bathroom.jpg" class="rounded-lg shadow" alt="Boat bathroom">
+      <img src="img/deck1.jpg" class="rounded-lg shadow" alt="Deck view from cockpit">
+      <img src="img/deck2.jpg" class="rounded-lg shadow" alt="Front deck view">
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section class="py-10 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">Boat Video</h2>
+    <div class="aspect-w-16 aspect-h-9">
+      <iframe class="w-full h-80 rounded-lg shadow" src="https://www.youtube.com/embed/sKQsLb0PtnQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Description -->
+  <section class="py-10 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">About the Sailboat</h2>
+    <p class="mb-4">Bavaria 46C (2004) - 4 cabins, 8 berths. Fully equipped and exceptionally maintained for safe and comfortable cruising.</p>
+    <ul class="list-disc list-inside">
+      <li>Volvo Penta 75 HP engine (overhauled 2022)</li>
+      <li>New antifouling paint (2023)</li>
+      <li>2 bathrooms (1 with electric toilet)</li>
+      <li>Life raft for 8 people (2024)</li>
+      <li>Dinghy + 2.5HP outboard engine (2024)</li>
+      <li>Watermaker 50 L/h (2023)</li>
+      <li>Air conditioning (2023)</li>
+      <li>AIS Class A (2022)</li>
+      <li>Garmin VHF (2022)</li>
+      <li>Raymarine 9" Plotter (2024)</li>
+      <li>Raymarine Autopilot</li>
+      <li>Raymarine i70 Wind/Speed/Depth (2024)</li>
+      <li>500W Solar Panel (2023)</li>
+      <li>Victron MPPT controller (2023)</li>
+      <li>2 refrigerators (1 new – 2023)</li>
+      <li>Anchor chain counter & remote</li>
+      <li>90 m anchor chain</li>
+      <li>4 new deep cycle batteries (3 service / 1 engine)</li>
+      <li>Bow thruster (revised 2025)</li>
+      <li>Sails (Genoa & Main) in good condition</li>
+      <li>New foldable aluminum gangway</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-10 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+    <form action="https://formspree.io/f/moqgdloy" method="POST" class="grid grid-cols-1 gap-4">
+      <input type="text" name="name" placeholder="Your name" class="p-3 border rounded" required>
+      <input type="email" name="email" placeholder="Your email" class="p-3 border rounded" required>
+      <textarea name="message" placeholder="Message" rows="4" class="p-3 border rounded" required></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Send Message</button>
+    </form>
+    <p class="mt-4 text-sm text-gray-600">Or email directly: <a href="mailto:iherzog97@gmail.com" class="text-blue-600 underline">iherzog97@gmail.com</a></p>
+    <p class="text-sm text-gray-600 flex items-center gap-2">
+      <i class="fab fa-whatsapp text-green-600"></i>
+      <a href="https://wa.me/5511999872922" class="text-green-600 underline" target="_blank">+55 11 99987-2922</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-600">
+    &copy; 2025 - Sailboat for Sale. All rights reserved.
+  </footer>
+</body>
+</html>
